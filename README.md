@@ -22,3 +22,8 @@
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
+
+## The code review during the meeting 2024/08/19
+- The best practice is to use innerText property instead of innerHTML.
+- This approach keeps your DOM tree secure by unable to inject harmful scripts into your application from the third part.
